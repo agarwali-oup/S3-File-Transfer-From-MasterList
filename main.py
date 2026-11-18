@@ -10,6 +10,7 @@ from pathlib import Path
 INPUT_XLSX = "C:/Users/agarwais/Downloads/JiraTasks/Transfer_files_from_researchbucket/filename.xlsx"
 
 SOURCE_BUCKET = "ol-research-data-prod"
+# uncomment to specify the folder, by default it looks up the entire bucket
 # SOURCE_PREFIX = "contracts/"
 
 DEST_BUCKET = "ol-rd4ai-multimodal-prod"
